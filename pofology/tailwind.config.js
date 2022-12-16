@@ -49,7 +49,7 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.gray.700'),
+            color: theme('colors.gray.600'),
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {
@@ -57,7 +57,7 @@ module.exports = {
               },
             },
             blockquote: {
-              color: theme('colors.gray.800'),
+              color: theme('colors.gray.600'),
               borderLeftColor: theme('colors.primary.500'),
               fontSize: theme('fontSize.xl'),
               fontStyle: 'not-italic',

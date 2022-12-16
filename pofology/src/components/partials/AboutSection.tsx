@@ -13,7 +13,7 @@ const AboutSection = () => {
         {/* Bio */}
         <div className="">
           <p className="text-justify">
-            Hi, I am Md Mostafizur Rahman, I am a fullstack developer. I work from Dhaka, Bangladesh. I have rich
+            Hi, I am Andreas Maita, I am a Software Engineer. I work from Stuttgart, Germany. I have rich
             experience in building, designing & customizing website, web apps, mobile apps etc.
           </p>
           <Button className="mt-5">Download CV</Button>

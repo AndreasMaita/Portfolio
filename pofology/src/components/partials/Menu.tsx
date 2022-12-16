@@ -16,7 +16,7 @@ const Menu = () => {
       <div className="mx-auto flex h-16 max-w-7xl items-center px-4 md:px-6">
         <Link href="/">
           <a className="text-3xl  font-bold">
-            <span>Pofology</span>
+            <span>Andreas Maita</span>
             <span className="text-primary-500">.</span>
           </a>
         </Link>
@@ -36,16 +36,16 @@ const Menu = () => {
             </Link>
           </li>
           <li>
-            <Link href="/blog">
+            <Link href="/content">
               <a
                 className={classNames(
                   'inline-block px-4 font-semibold  transition-colors duration-150 hover:text-primary-600 hover:underline',
                   {
-                    'text-primary-500': router.asPath == '/blog',
+                    'text-primary-500': router.asPath == '/content',
                   }
                 )}
               >
-                Blog
+                Content
               </a>
             </Link>
           </li>
@@ -127,7 +127,7 @@ const Menu = () => {
                 <div className="border-b px-2 pb-4 dark:border-gray-700">
                   <Link href="/">
                     <a className="text-3xl  font-bold">
-                      <span>Pofology</span>
+                      <span>Andreas Maita</span>
                       <span className="text-primary-500">.</span>
                     </a>
                   </Link>
@@ -143,14 +143,14 @@ const Menu = () => {
                       Works
                     </a>
                   </Link>
-                  <Link href="/blog">
+                  <Link href="/content">
                     <a
                       className={classNames(
-                        { 'text-primary-500': router.asPath == '/blog' },
+                        { 'text-primary-500': router.asPath == '/content' },
                         'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600'
                       )}
                     >
-                      Blog
+                      Content
                     </a>
                   </Link>
                   <Link href="/contact">

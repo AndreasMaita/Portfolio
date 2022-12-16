@@ -14,12 +14,12 @@ const HeroSection = () => {
         <div className="overflow-hidden rounded-full">
           <Image src="/images/avatar/man.png" width={180} height={180} alt="avatar" />
         </div>
-        <h1 className="mt-4 text-3xl font-bold ">Mostafizur Rahman</h1>
+        <h1 className="mt-4 text-3xl font-bold "> Andreas Maita</h1>
         <div className="mt-2 flex gap-1">
           {' '}
           I'm a{' '}
           <Typed
-            strings={['Fullstack Developer', 'UI/UX Designer', 'Mobile App Developer']}
+            strings={['Software Engineer', 'Mobile App Developer', 'Fullstack Developer']}
             typeSpeed={60}
             backSpeed={30}
             loop
