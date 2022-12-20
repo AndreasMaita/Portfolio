@@ -13,10 +13,9 @@ const AlgorithmsContentSection = () => {
           </a>
         </Link>
         <div className="p-6">
-          <Link href={"href"}>
             // TODO 
             <a className="block text-xl font-semibold hover:text-primary-500 hover:underline">Knuth-Morris-Pratt Algorithm</a>
-          </Link>
+
           <time className="mt-2 inline-block text-gray-500">Today</time>
         </div>
       </div>

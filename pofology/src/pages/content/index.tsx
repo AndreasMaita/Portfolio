@@ -21,15 +21,14 @@ const Content = () => {
       </PageTitle>
       <div className="container py-10">
         <Link href="/content/blog">
-          <div>
-            <a
-              className={classNames(
-                'mb-4 text-4xl font-bold group flex items-center px-2 py-2 text-base font-medium cursor-pointer transition-colors duration-150 hover:text-primary-600'
-              )}
-            >
-              Blog Posts
-            </a>
-          </div>
+          <a
+            className={classNames(
+              'mb-4 text-4xl font-bold mt-8 group flex items-center px-2 py-2 font-medium cursor-pointer transition-colors duration-150 hover:text-primary-600'
+            )}
+          >
+            Blog Posts
+          </a>
+
         </Link>
         <BlogContentSection numberOfPosts={3}></BlogContentSection>
         <h1 className="mb-4 text-4xl font-bold mt-8">Algorithms</h1>
