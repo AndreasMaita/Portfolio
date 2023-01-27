@@ -9,7 +9,6 @@ interface KMPState {
   currentIndex: number;
   patternFound: boolean;
 }
-
 class KMP extends React.Component<KMPProps, KMPState> {
   constructor(props: KMPProps) {
     super(props);

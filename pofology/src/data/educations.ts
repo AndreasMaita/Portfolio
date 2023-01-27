@@ -2,24 +2,12 @@ import { Education } from '@/types';
 
 export const educations: Education[] = [
   {
-    degree: 'Bachelor of Science',
-    school: 'University of California',
-    startDate: 'Jan 2017',
-    endDate: 'Dec 2018',
-    description: 'Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.',
-  },
-  {
-    degree: 'Master of Science',
-    school: 'University of California',
-    startDate: 'Jan 2019',
-    endDate: 'Dec 2021',
-    description: 'Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.',
-  },
-  {
-    degree: 'Doctor of Philosophy',
-    school: 'University of California',
-    startDate: 'Jan 2022',
-    endDate: 'Present',
-    description: 'Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.',
-  },
+    degree: 'Bachelor of Science B.Sc. in Computer Science',
+    school: 'Hochschule Furtwangen University',
+    startDate: 'September 2015',
+    endDate: 'February 2020',
+    description: "Software Development in Java." + 
+    " Software Architecture in Java." +
+    " Full-Stack-Webdevelopment with Javascript using Node.js Express.js Angular and MongoDB",
+  }
 ];

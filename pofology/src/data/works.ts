@@ -6,44 +6,33 @@ export const works: Work[] = [
     title: 'Personal Portfolio Website',
     category: 'Web Development',
     thumbnailUrl: '/images/works/portfolio-website.png',
-    description: `Cras id dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
-    Vivamus laoreet. Praesent turpis. Nunc nulla.Praesent nec nisl a purus blandit viverra. Nullam dictum felis
-    eu pede mollis pretium. Curabitur vestibulum aliquam leo. Sed libero. Praesent metus tellus, elementum eu,
-    semper a, adipiscing nec Vestibulum ullamcorper mauris at ligula. Phasellus consectetuer vestibulum elit.
-    Sed a libero. Vivamus consectetuer hendrerit lacus. Quisque ut nisi.Cum sociis natoque penatibus`,
+    description: `Built this personal portfolio website using Next.js, Tailwind CSS, and TypeScript. This is a static site `+ 
+    "generated at build time and hosted on Vercel. The site is fully responsive and works on all devices." + 
+    " support for custom Blog features like custom animations, custom fonts, and custom colors.",
     publishedAt: '01 July 2022',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
-    previewUrl: 'https://pofology.bdlancers.com/',
+    previewUrl: 'https://andreasmaita.com/',
     featureList: [
       '100% Fluid Responsive – Fits any device perfectly',
       'Tested on real devices',
       'Flexible Layout',
-      `
-        Use our demo layout or create your own visually different experience using page Vcamp and feature-rich
-        backend`,
-      'Unlimited Sidebars',
       'Retina Optimized',
       'Advanced Admin Panel',
-      'Demo Import, Content and Sliders',
       'Social Links',
       'Bottom Footer Widgets',
-      'Clean &amp; Commented Code',
       'Advanced Typography',
       'Google Fonts – 600+ Font families available',
       'Custom Font Support',
       'Custom Page Templates',
       'Pixel Perfect Design',
-      'Quick &amp; Easy Installation &amp; Setup',
       'Custom CSS Ready',
-      'HTML5 &amp; CSS3',
       'Easy Customization With Variable Content Sections',
-      'Custom Build Theme &amp; Page Options',
       'SEO Ready',
     ],
     attributes: [
       {
         name: 'Client',
-        value: 'Pofology',
+        value: 'Myself',
       },
       {
         name: 'Start Date',
@@ -51,7 +40,7 @@ export const works: Work[] = [
       },
       {
         name: 'End Date',
-        value: '01 October 2022',
+        value: '24 January 2022',
       },
       {
         name: 'Category',
@@ -74,37 +63,25 @@ export const works: Work[] = [
 
   {
     id: 2,
-    title: 'Social Media App (Instagram Clone)',
+    title: 'Dog Loving Mobile App',
     category: 'Mobile App',
     thumbnailUrl: '/images/works/social-media-app.png',
-    description: `Cras id dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
-    Vivamus laoreet. Praesent turpis. Nunc nulla.Praesent nec nisl a purus blandit viverra. Nullam dictum felis
-    eu pede mollis pretium. Curabitur vestibulum aliquam leo. Sed libero. Praesent metus tellus, elementum eu,
-    semper a, adipiscing nec Vestibulum ullamcorper mauris at ligula. Phasellus consectetuer vestibulum elit.
-    Sed a libero. Vivamus consectetuer hendrerit lacus. Quisque ut nisi.Cum sociis natoque penatibus`,
+    description: `
+    Mobile app for dog lovers. This app is built using flutter and dart. The app is fully responsive and works on all devices.
+    This App will show you a random dog image on tap. You can also save your favorite dog images to your device.
+    
+    Released on Android and iOS. Also open source on Github.
+    This app uses background api calls to fetch data from the internet and stores them in a buffer. This is done to reduce the number of api calls and improve performance.`,
+
     publishedAt: '01 July 2022',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
     previewUrl: 'https://pofology.bdlancers.com/',
     featureList: [
       '100% Fluid Responsive – Fits any device perfectly',
       'Tested on real devices',
-      'Flexible Layout',
-      `
-        Use our demo layout or create your own visually different experience using page Vcamp and feature-rich
-        backend`,
-      'Unlimited Sidebars',
-      'Retina Optimized',
-      'Advanced Admin Panel',
-      'Demo Import, Content and Sliders',
-      'Social Links',
-      'Bottom Footer Widgets',
-      'Clean &amp; Commented Code',
-      'Advanced Typography',
-      'Google Fonts – 600+ Font families available',
+      'Simple UI',
       'Custom Font Support',
-      'Custom Page Templates',
-      'Pixel Perfect Design',
-      'Quick &amp; Easy Installation &amp; Setup',
+      'easy download and installation',
       'Custom CSS Ready',
       'HTML5 &amp; CSS3',
       'Easy Customization With Variable Content Sections',

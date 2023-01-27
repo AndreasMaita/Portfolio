@@ -10,7 +10,7 @@ const ExperienceSection = () => {
   return (
     <>
       <SectionTitle>Experiences & Educations</SectionTitle>
-      <div className="py-15 mt-10 grid gap-8 md:grid-cols-2">
+      <div className="py-15 mt-10 grid gap-8 md:grid-cols-1">
         {/* Experience */}
         <div>
           <div className="rounded-2xl bg-white px-10 py-8 shadow-lg dark:bg-gray-700">
@@ -34,13 +34,6 @@ const ExperienceSection = () => {
                   </p>
                 </li>
               ))}
-            </ol>
-          </div>
-        </div>
-        {/* Education */}
-        <div>
-          <div className="rounded-2xl bg-white px-10 py-8 shadow-lg dark:bg-gray-700">
-            <ol className={classNames(styles['education'], 'border-l border-gray-200 dark:border-gray-500')}>
               {educations.map((education, index) => (
                 <li key={index} className={styles['education-item']}>
                   <span className="absolute -left-2.5 flex h-5 w-5 items-center justify-center rounded-full bg-white text-primary-500 ring-8 ring-white dark:bg-gray-700 dark:ring-gray-700">
@@ -61,6 +54,7 @@ const ExperienceSection = () => {
             </ol>
           </div>
         </div>
+
       </div>
     </>
   );
