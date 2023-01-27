@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { FiDribbble, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiTwitter } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
 import Button from '@/components/form/Button';
 import HeroBackground from './HeroBackground';
 import Typed from 'react-typed';
@@ -9,7 +9,7 @@ import Typed from 'react-typed';
 
 const handleScroll = () => {
   window.scrollTo({ top: 800, behavior: 'smooth' });
-}
+};
 
 const HeroSection = () => {
   return (

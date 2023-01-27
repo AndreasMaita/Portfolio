@@ -7,8 +7,8 @@ export const works: Work[] = [
     category: 'Web Development',
     thumbnailUrl: '/images/works/portfolio-website.png',
     description: `Built this personal portfolio website using Next.js, Tailwind CSS, and TypeScript. This is a static site `+ 
-    "generated at build time and hosted on Vercel. The site is fully responsive and works on all devices." + 
-    " support for custom Blog features like custom animations, custom fonts, and custom colors.",
+    'generated at build time and hosted on Vercel. The site is fully responsive and works on all devices.' + 
+    ' support for custom Blog features like custom animations, custom fonts, and custom colors.',
     publishedAt: '01 July 2022',
     images: ['/images/works/work-01.png', '/images/works/work-02.png', '/images/works/work-03.png'],
     previewUrl: 'https://andreasmaita.com/',
