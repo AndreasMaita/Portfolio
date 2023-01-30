@@ -30,9 +30,9 @@ const work = () => {
           ))}
         </div>
         <div className="mt-10 flex items-center justify-center">
-          <Button className="mt-5 bg-primary-500 px-8 font-semibold text-white hover:bg-primary-600 focus:ring-2 focus:ring-primary-200">
+          {/* <Button className="mt-5 bg-primary-500 px-8 font-semibold text-white hover:bg-primary-600 focus:ring-2 focus:ring-primary-200">
             Load More
-          </Button>
+          </Button> */}
         </div>
       </div>
     </AppLayout>

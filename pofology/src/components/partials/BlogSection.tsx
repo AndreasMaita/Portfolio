@@ -9,13 +9,7 @@ const BlogSection = () => {
     <>
       <Link href="/content/blog">
         <div>
-          <a
-            className={classNames(
-              'mb-4 text-4xl font-bold group flex items-center px-2 py-2 text-base font-medium cursor-pointer transition-colors duration-150 hover:text-primary-600'
-            )}
-          >
-            Blog Posts
-          </a>
+          <SectionTitle> Blog Posts </SectionTitle>
         </div>
       </Link>
       <div className="mt-10 grid gap-8 sm:gap-4 md:grid-cols-3 lg:gap-8">

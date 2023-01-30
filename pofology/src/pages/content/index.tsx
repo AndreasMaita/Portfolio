@@ -32,12 +32,12 @@ const Content = () => {
 
         </Link>
         <BlogContentSection numberOfPosts={3}></BlogContentSection>
-        <h1 className="mb-4 text-4xl font-bold mt-8">Algorithms</h1>
-        <AlgorithmsContentSection></AlgorithmsContentSection>
+        {/* <h1 className="mb-4 text-4xl font-bold mt-8">Algorithms</h1>
+        <AlgorithmsContentSection></AlgorithmsContentSection> */}
 
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <Pagination />
-        </div>
+        </div> */}
       </div>
     </AppLayout>
   );

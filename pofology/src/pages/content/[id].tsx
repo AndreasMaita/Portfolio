@@ -3,8 +3,6 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FiFacebook, FiLinkedin, FiMail, FiTwitter } from 'react-icons/fi';
-import CommentBox from '@/components/partials/CommentBox';
-import RecentComment from '@/components/partials/RecentComment';
 import { Post } from '@/types';
 import { GetServerSideProps } from 'next';
 import { posts } from '@/data/posts';
@@ -55,14 +53,16 @@ const BlogSingle: React.FunctionComponent<Props> = ({ post }) => {
               </a>
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-8">
-            <div className="mt-10">
+          {/* <div className='grid grid-cols-1'>
+            <div className="mt-12">
               <RecentComment />
             </div>
+          </div>
+          <div className='grid grid-cols-1'>
             <div className="mt-10">
               <CommentBox />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </AppLayout>

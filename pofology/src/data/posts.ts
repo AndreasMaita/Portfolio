@@ -45,101 +45,37 @@ export const posts: Post[] = [
   },
   {
     id: 2,
-    title: 'the Knuth-Morris-Pratt Algorithm and why it is useful',
+    title: 'The most important soft-skills you need as a Software Engineer',
     publishedAt: '9 Mar 2022',
-    thumbnailUrl: '/images/posts/post-thumbnail-2.png',
-    imageUrl: '/images/posts/post-02.png',
+    thumbnailUrl: '/images/posts/blog-template.png',
+    imageUrl: '/images/posts/soft-skills.png',
     authorName: 'John Doe',
     content: `
-    <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-              tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
-              erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet Cras id dui. Class aptent taciti
-              sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Vivamus laoreet. Praesent turpis.
-              Nunc nulla.Praesent nec nisl a purus blandit viverra. Nullam dictum felis eu pede mollis pretium.
-              Curabitur vestibulum aliquam leo. Sed libero. Praesent metus tellus, elementum eu, semper a, adipiscing
-              nec
-            </p>
-            <blockquote>
-              A rich text element can be used with static or dynamic content For static content, just drop it into any
-              page
-            </blockquote>
-            <p>
-              Praesent ac sem eget est egestas volutpat. Aenean tellus metus, bibendum sed, posuere ac, mattis non,
-              nunc. Curabitur suscipit suscipit tellus. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id,
-              lorem. Etiam rhoncus.Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Pellentesque egestas,
-              neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Vestibulum
-              purus quam, scelerisque ut, mollis sed, nonummy id, metus Vestibulum ullamcorper mauris at ligula.
-              Phasellus consectetuer vestibulum elit. Sed a libero. Vivamus consectetuer hendrerit lacus. Quisque ut
-              nisi.Cum sociis natoque penatibus Cras id dui. Class aptent taciti sociosqu ad litora torquent per conubia
-              nostra, per inceptos hymenaeos. Vivamus laoreet. Praesent turpis. Nunc nulla.Praesent nec nisl a purus
-              blandit viverra. Nullam dictum felis eu pede mollis pretium. Curabitur vestibulum
-            </p>`,
+    <p>As Software Engineers, we are often more concerned with our technical expertise in our jobs. However, it is important to note that soft-skills can be just as crucial to our success in the field. In this article, we'll explore some key soft-skills that are essential for software engineers, and offer tips on how to develop them.</p>
+
+<h2>Build a strong stress-resistance:</h2>
+<p>Why is it important? Because stress in the job force is something that you cannot avoid. Your User Story is not finished yet? Do you have an issue with your testing environment? Something goes wrong while you present your work to the customer? All these instances are guaranteed to stress you out, especially so when you are a junior developer. Being able to handle these difficult situations well will make you stand out to the customer and to your boss. On top of that, you will enjoy your job more. Additionally, stress at your job can often transfer to your personal life, so it's important to develop stress-resistance to maintain a healthy work-life balance.
+
+So, how can you be more stress-resistant? One key tip is to journal. Keeping a journal can help you to have a birds-eye view on the day or even the week. It doesn’t have to be an hour-long practice either. The things that I write down every morning are my top 3 priorities and the tasks that I really need to finish off today. Additionally, taking frequent breaks can help to reduce stress. Your body and brain are amazing machines, but they need to rest every now and then. One time interval that works well for many people is taking a 15-minute break every 90 minutes. This can help to improve productivity and the quality of your code.
+</p>
+
+<h2>Develop an optimistic mindset:</h2>
+<p>It's essential to have an optimistic mindset as a software engineer. When something goes wrong near a deadline, an optimistic mindset will allow you to focus on what's important and what's ahead, rather than getting bogged down by negative thoughts. Additionally, an optimistic mindset can help to reduce stress levels and increase work efficiency. It's a positive cycle where having an optimistic mindset leads to producing better and more output, which in turn reinforces the optimistic mindset.
+</p>
+
+<h2>Learn how to communicate effectively:</h2>
+
+<p>Effective communication is a crucial soft-skill for software engineers. Being able to express your ideas clearly and concisely is a skill that needs to be developed. Some developers may prefer to work alone in a room without interruptions, but this can be detrimental to your career and health. Good communication skills are in high demand, yet they are often lacking in software engineers who are passionate about technical topics. If you find that people are not listening to you or you're struggling to convey your ideas, it may be worth working on your communication skills.
+</p>
+
+Here are some tips to help improve your communication skills:
+<ul>
+<li>Be concise and precise: Before a meeting or call, take a few minutes to prepare and think about what you want to say, what details are relevant, and how you can present the information in the most effective way.</li>
+<li>Listen actively: It's just as important to listen as it is to speak. Practice active listening by giving your full attention to the speaker, asking clarifying questions, and providing feedback.</li>
+<li>Use visual aids: Diagrams, flowcharts, and other visual aids can be a great way to communicate complex ideas.</li>
+<li>Practice empathy: Put yourself in the listener's shoes and try to understand their perspective. This can help to improve the effectiveness of your communication.</li>
+</ul>
+In conclusion, as software engineers, it's essential to develop strong stress-resistance, an optimistic mindset, and effective communication skills. These soft-skills can help you to thrive in your career and enjoy your work more. By focusing on developing these skills, you can set yourself up for success and become a more well-rounded software engineer.`,
   },
-  {
-    id: 3,
-    title: 'Magnam facilis autem',
-    publishedAt: '15 Feb 2022',
-    thumbnailUrl: '/images/posts/post-thumbnail-3.png',
-    imageUrl: '/images/posts/post-03.png',
-    authorName: 'John Doe',
-    content: `
-    <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-              tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
-              erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet Cras id dui. Class aptent taciti
-              sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Vivamus laoreet. Praesent turpis.
-              Nunc nulla.Praesent nec nisl a purus blandit viverra. Nullam dictum felis eu pede mollis pretium.
-              Curabitur vestibulum aliquam leo. Sed libero. Praesent metus tellus, elementum eu, semper a, adipiscing
-              nec
-            </p>
-            <blockquote>
-              A rich text element can be used with static or dynamic content For static content, just drop it into any
-              page
-            </blockquote>
-            <p>
-              Praesent ac sem eget est egestas volutpat. Aenean tellus metus, bibendum sed, posuere ac, mattis non,
-              nunc. Curabitur suscipit suscipit tellus. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id,
-              lorem. Etiam rhoncus.Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Pellentesque egestas,
-              neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Vestibulum
-              purus quam, scelerisque ut, mollis sed, nonummy id, metus Vestibulum ullamcorper mauris at ligula.
-              Phasellus consectetuer vestibulum elit. Sed a libero. Vivamus consectetuer hendrerit lacus. Quisque ut
-              nisi.Cum sociis natoque penatibus Cras id dui. Class aptent taciti sociosqu ad litora torquent per conubia
-              nostra, per inceptos hymenaeos. Vivamus laoreet. Praesent turpis. Nunc nulla.Praesent nec nisl a purus
-              blandit viverra. Nullam dictum felis eu pede mollis pretium. Curabitur vestibulum
-            </p>`,
-  },
-  {
-    id: 4,
-    title: 'Dolorem dolore est ipsam',
-    publishedAt: '10 Jan 2022',
-    thumbnailUrl: '/images/posts/post-thumbnail-4.png',
-    imageUrl: '/images/posts/post-04.png',
-    authorName: 'John Doe',
-    content: `
-    <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-              tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
-              erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet Cras id dui. Class aptent taciti
-              sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Vivamus laoreet. Praesent turpis.
-              Nunc nulla.Praesent nec nisl a purus blandit viverra. Nullam dictum felis eu pede mollis pretium.
-              Curabitur vestibulum aliquam leo. Sed libero. Praesent metus tellus, elementum eu, semper a, adipiscing
-              nec
-            </p>
-            <blockquote>
-              A rich text element can be used with static or dynamic content For static content, just drop it into any
-              page
-            </blockquote>
-            <p>
-              Praesent ac sem eget est egestas volutpat. Aenean tellus metus, bibendum sed, posuere ac, mattis non,
-              nunc. Curabitur suscipit suscipit tellus. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id,
-              lorem. Etiam rhoncus.Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Pellentesque egestas,
-              neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Vestibulum
-              purus quam, scelerisque ut, mollis sed, nonummy id, metus Vestibulum ullamcorper mauris at ligula.
-              Phasellus consectetuer vestibulum elit. Sed a libero. Vivamus consectetuer hendrerit lacus. Quisque ut
-              nisi.Cum sociis natoque penatibus Cras id dui. Class aptent taciti sociosqu ad litora torquent per conubia
-              nostra, per inceptos hymenaeos. Vivamus laoreet. Praesent turpis. Nunc nulla.Praesent nec nisl a purus
-              blandit viverra. Nullam dictum felis eu pede mollis pretium. Curabitur vestibulum
-            </p>`,
-  },
+  
 ];
