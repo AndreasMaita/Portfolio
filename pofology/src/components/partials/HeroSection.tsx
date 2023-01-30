@@ -52,7 +52,6 @@ const HeroSection = () => {
       </div>
 
       <div className="absolute bottom-0 flex flex-col items-center ">
-        <p className="mb-3 text-sm">Scroll Down</p>
         <div className="relative flex h-7 w-5 justify-center rounded-full border-2 border-gray-600 dark:border-gray-100">
           <div className="animate-scroll absolute h-1 w-1 bg-gray-600 dark:bg-gray-100" style={{ top: '6px' }}></div>
         </div>
