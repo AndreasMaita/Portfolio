@@ -26,6 +26,24 @@ body {
 .slick-next:before {
   @apply text-gray-300;
 }
+
+
+.dark p,
+.dark li {
+    @apply text-gray-300;
+}
+
+.dark h1,
+.dark h2,
+.dark h3 {
+  @apply text-gray-200;
+}
+
+.dark blockquote {
+    @apply text-gray-400;
+}
+
+
 .slick-dots {
   li {
     @apply m-0;

@@ -1,9 +1,6 @@
 import { posts } from '@/data/posts';
 import React from 'react';
-import internal from 'stream';
 import Post from '../shared/Post';
-import SectionTitle from '../shared/SectionTitle';
-import Menu from './Menu';
 
 interface BlogContentSectionProps {
   numberOfPosts: number;

@@ -28,7 +28,7 @@ const BlogSingle: React.FunctionComponent<Props> = ({ post }) => {
             <Image src={post.imageUrl} height={720} width={1280} layout="responsive" alt={post.title} />
           </div>
           <article
-            className="prose mt-10 max-w-full dark:prose-invert"
+            className="prose prose-stone mt-10 max-w-full blog-content"
             dangerouslySetInnerHTML={{ __html: post.content }}
           ></article>
           <div className="mt-10  flex">
