@@ -7,7 +7,6 @@ import AppLayout from '@/layouts/AppLayout';
 import classNames from 'classnames';
 import Link from 'next/link';
 
-
 const Content = () => {
   return (
     <AppLayout title="Content">
@@ -21,23 +20,13 @@ const Content = () => {
       </PageTitle>
       <div className="container py-10">
         <Link href="/content/blog">
-          
           <a
             className={classNames(
-              'mb-4 text-4xl font-bold mt-8 group flex items-center px-2 py-2 font-medium cursor-pointer transition-colors duration-150 hover:text-primary-600'
+              'group mb-4 mt-8 flex cursor-pointer items-center px-2 py-2 text-4xl font-bold font-medium transition-colors duration-150 hover:text-primary-600'
             )}
-          >
-            Blog Posts
-          </a>
-
+          ></a>
         </Link>
         <BlogContentSection numberOfPosts={3}></BlogContentSection>
-        {/* <h1 className="mb-4 text-4xl font-bold mt-8">Algorithms</h1>
-        <AlgorithmsContentSection></AlgorithmsContentSection> */}
-
-        {/* <div className="mt-12">
-          <Pagination />
-        </div> */}
       </div>
     </AppLayout>
   );
