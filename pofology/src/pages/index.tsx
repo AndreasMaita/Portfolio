@@ -2,6 +2,7 @@ import AboutSection from '@/components/partials/AboutSection';
 import ExperienceSection from '@/components/partials/ExperienceSection';
 import HeroSection from '@/components/partials/HeroSection';
 import RecentWorkSection from '@/components/partials/RecentWorkSection';
+import CertificateSection from '@/components/partials/CertificateSection';
 import AppLayout from '@/layouts/AppLayout';
 import type { NextPage } from 'next';
 
@@ -15,8 +16,8 @@ const Home: NextPage = () => {
       <section className="container py-16">
         <ExperienceSection />
       </section>
-      {/* <section className="container py-16">
-        <ServiceSection />
+{/*       <section className="container py-16">
+        <CertificateSection />
       </section> */}
       <section className="container py-16">
         <RecentWorkSection />
@@ -24,9 +25,9 @@ const Home: NextPage = () => {
       {/* <section className="container py-16">
         <TestimonialSection />
       </section> */}
-      {/*<section className="container py-16">*/}
-      {/*  <BlogSection />*/}
-      {/*</section>*/}
+{/*       <section className="container py-16">
+        <BlogSection />
+      </section> */}
       {/* <section className="container py-16">
         <ContactSection />
       </section> */}

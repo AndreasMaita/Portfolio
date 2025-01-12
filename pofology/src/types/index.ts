@@ -1,5 +1,13 @@
 import { Url } from 'url';
 
+export type Certificate = {
+  certificateIssuer: string;
+  duration: string;
+  startDate: string;
+  endDate: string;
+  description: string;
+}
+
 export type Experience = {
   jobTitle: string;
   company: string;

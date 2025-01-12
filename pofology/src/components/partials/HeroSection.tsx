@@ -50,12 +50,6 @@ const HeroSection = () => {
 
         <Button onClick={handleScroll} className="mt-5 px-8">About Me</Button>
       </div>
-
-      <div className="absolute bottom-0 flex flex-col items-center ">
-        <div className="relative flex h-7 w-5 justify-center rounded-full border-2 border-gray-600 dark:border-gray-100">
-          <div className="animate-scroll absolute h-1 w-1 bg-gray-600 dark:bg-gray-100" style={{ top: '6px' }}></div>
-        </div>
-      </div>
     </div>
   );
 };
