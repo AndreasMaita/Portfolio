@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <section className="container py-16">
         <ExperienceSection />
       </section>
-{/*       <section className="container py-16">
+      {/*       <section className="container py-16">
         <CertificateSection />
       </section> */}
       <section className="container py-16">
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
       {/* <section className="container py-16">
         <TestimonialSection />
       </section> */}
-{/*       <section className="container py-16">
+      {/*       <section className="container py-16">
         <BlogSection />
       </section> */}
       {/* <section className="container py-16">
