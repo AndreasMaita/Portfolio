@@ -8,9 +8,9 @@ import Post from '../shared/Post';
 const AlgorithmsContentSection = () => {
   return (
     <div className={classNames(styles['post'], 'bg-white dark:bg-gray-700')}>
-      <Link href={'href'}>
-        <a className={styles['post-image']}>
-        </a>
+      <Link href={'href'} className={styles['post-image']}>
+        
+        
       </Link>
       <div className='p-6'>
         <a className='block text-xl font-semibold hover:text-primary-500 hover:underline'>Knuth-Morris-Pratt Algorithm</a>

@@ -19,12 +19,12 @@ const Content = () => {
         Content
       </PageTitle>
       <div className="container py-10">
-        <Link href="/content/blog">
-          <a
-            className={classNames(
-              'group mb-4 mt-8 flex cursor-pointer items-center px-2 py-2 text-4xl font-bold font-medium transition-colors duration-150 hover:text-primary-600'
-            )}
-          ></a>
+        <Link
+          href="/content/blog"
+          className={classNames(
+            'group mb-4 mt-8 flex cursor-pointer items-center px-2 py-2 text-4xl font-bold font-medium transition-colors duration-150 hover:text-primary-600'
+          )}>
+
         </Link>
         <BlogContentSection numberOfPosts={3}></BlogContentSection>
       </div>

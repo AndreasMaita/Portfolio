@@ -31,20 +31,26 @@ const HeroSection = () => {
           />
         </div>
         <div className="mt-4  flex gap-5">
-          <Link href="https://twitter.com/maita_andreas">
-            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
-              <FiTwitter size={25} />
-            </a>
+          <Link
+            href="https://twitter.com/maita_andreas"
+            className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
+
+            <FiTwitter size={25} />
+
           </Link>
-          <Link href="https://www.linkedin.com/in/andreas-maita-0560801ba/">
-            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
-              <FiLinkedin size={25} />
-            </a>
+          <Link
+            href="https://www.linkedin.com/in/andreas-maita-0560801ba/"
+            className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
+
+            <FiLinkedin size={25} />
+
           </Link>
-          <Link href="https://github.com/AndreasMaita">
-            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
-              <FiGithub size={25} />
-            </a>
+          <Link
+            href="https://github.com/AndreasMaita"
+            className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
+
+            <FiGithub size={25} />
+
           </Link>
         </div>
 
